@@ -25,7 +25,7 @@ public class Interactable : MonoBehaviour {
 	void Update ()
 	{
 		// If we are currently being focused
-		// and we haven't already interacted with the object
+		// and we haven't already interacted with the object.
 		if (isFocus && !hasInteracted)
 		{
 			// If we are close enough
@@ -54,7 +54,7 @@ public class Interactable : MonoBehaviour {
 		player = null;
 		hasInteracted = false;
 	}
-
+// For Debugging 
 	// Draw our radius in the editor
 	void OnDrawGizmosSelected ()
 	{
